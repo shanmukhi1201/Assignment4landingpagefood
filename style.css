@@ -1,0 +1,96 @@
+.bgimage{
+    background-image: url(https://media.istockphoto.com/photos/fresh-tasty-burger-picture-id495204032?k=20&m=495204032&s=612x612&w=0&h=x44AnT8kHv-apqnG9t1ILwf2sIr4uq14CUB7MBaiuOI=);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-style: italic;
+    color: white;
+}
+.color{
+    background-color: rgba(0,0,0,0.6);
+    height: 100vh;
+}
+a:hover{
+    text-decoration: underline;
+   text-decoration-color: yellow;
+   text-decoration-thickness: 3px;
+}
+li{
+    display: inline;
+    list-style-type: none;
+   margin: auto;
+   
+}
+.menu{
+    float: left;
+    display: inline;
+    word-spacing: 70px;
+    margin-left: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+button{
+    color: black;
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+}
+.column{
+    display: flex;
+    float: left;
+    flex: 50%;
+    flex-direction: column;
+    color: burlywood;
+    column-width: 100px;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+column-count: 5;
+}
+
+.matter h2{
+    color: yellow;
+    display: inline;
+    font-size: 50px;
+    
+}
+.matter h1{
+    display: inline;
+    color: white;
+    font-size: 50px;
+   
+}
+.matter2{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    float: right;
+    
+}
+.items{
+    float:right;
+    margin-top: 0px;
+}
+.matter button{
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+    display: block;
+}
+.image{
+    float: right;
+}
